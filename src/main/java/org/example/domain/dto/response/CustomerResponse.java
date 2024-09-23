@@ -1,4 +1,4 @@
-package org.example.domain.dto.response.Customer;
+package org.example.domain.dto.response;
 
 import lombok.*;
 
@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
 @Builder
 @Getter
 @Setter
-public class Response {
+public class CustomerResponse {
     private String id;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
